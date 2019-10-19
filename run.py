@@ -35,3 +35,6 @@ def main():
         os.remove(picLocation)
         numPics += 1
     camera.stop_preview()
+
+if __name__ == '__main__':
+    main()
